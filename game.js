@@ -49,9 +49,9 @@ function StartMoveTimer(){
 	setTimeout(function(){ hasMoved = false; }, 500);
 }
 function preload () {
-	game.load.spritesheet('player', '/images/game/sprites/players.png', 32, 48);
-	game.load.spritesheet('enemy', '/images/game/sprites/player.png', 35, 35);
-	game.load.image('background', '/images/Background_Brown.jpg');
+	game.load.spritesheet('player', './images/game/sprites/players.png', 32, 48);
+	game.load.spritesheet('enemy', './images/game/sprites/player.png', 35, 35);
+	game.load.image('background', './images/Background_Brown.jpg');
 }
 function parseSpriteSheet(object, animationName, frames, start, speed, offset) {
 	var i = start;
